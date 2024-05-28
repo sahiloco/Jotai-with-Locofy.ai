@@ -1,0 +1,108 @@
+/* Existing global styles */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-archivo: Archivo;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-lgi: 19px;
+  --font-size-xs: 12px;
+  --font-size-21xl-4: 40.4px;
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --light-text: #787878;
+  --dark: #171e1d;
+  --color-gray-100: rgba(0, 0, 0, 0.85);
+  --light-grey-border: #e8ecf2;
+  --color-black: #000;
+  --light-bg: #f4f4f4;
+  --accent: #00c29f;
+  --color-lightseagreen-100: #00a887;
+  --white: #fff;
+  --color-gainsboro: #d9d9d9;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-3xs: 10px;
+  --gap-sm: 14px;
+  --gap-7xs: 6px;
+  --gap-11xs: 2px;
+  --gap-0: 0px;
+  --gap-8xs: 5px;
+  --gap-9xs: 4px;
+  --gap-5xl: 24px;
+  --gap-5xs: 8px;
+  --gap-11xl: 30px;
+
+  /* Paddings */
+  --padding-61xl: 80px;
+  --padding-xs: 12px;
+  --padding-21xl: 40px;
+  --padding-xl: 20px;
+  --padding-4xs: 9px;
+  --padding-base: 16px;
+  --padding-5xs-5: 7.5px;
+  --padding-170xl: 189px;
+  --padding-11xs: 2px;
+  --padding-7xs: 6px;
+  --padding-6xs: 7px;
+  --padding-8xs: 5px;
+  --padding-56xl: 75px;
+  --padding-sm: 14px;
+  --padding-9xs: 4px;
+  --padding-5xs: 8px;
+  --padding-31xl: 50px;
+  --padding-11xl: 30px;
+  --padding-2xs: 11px;
+  --padding-lgi: 19px;
+  --padding-lg: 18px;
+  --padding-mini: 15px;
+
+  /* Border radiuses */
+  --br-7xs: 6px;
+  --br-3xs: 10px;
+  --br-smi: 13px;
+  --br-4xs: 9px;
+  --br-9xs: 4px;
+}
+
+/* Light theme styles */
+.app.light {
+  background-color: var(--white);
+  color: var(--color-black);
+}
+
+/* Dark theme styles */
+.app.dark {
+  background-color: var(--color-black);
+  color: var(--white);
+}
+
+/* Theme toggle button styles */
+.theme-toggle {
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+  background-color: var(--accent);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.theme-toggle:hover {
+  background-color: var(--color-lightseagreen-100);
+}
